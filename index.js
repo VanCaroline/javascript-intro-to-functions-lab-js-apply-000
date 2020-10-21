@@ -24,11 +24,11 @@ function sayHiToGrandma (string){
   
   return "I can't hear you!"
   
-  if (shout(string)===string.toUpperCase())
+  else if (shout(string)===string.toUpperCase())
   
   return "YES INDEED!"
   
-  if (string==='I love you, Grandma.')
+  else if (string==='I love you, Grandma.')
   
   return "I love you, too."
   
